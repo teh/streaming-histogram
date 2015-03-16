@@ -18,6 +18,11 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 
+source-repository head
+    type:     git
+    location: https://github.com/teh/streaming-histogram
+
+
 library
   exposed-modules:     Numeric.StreamingHistogram
                      , Numeric.StreamingHistogram.Internal
